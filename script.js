@@ -62,6 +62,6 @@ firstLetter = firstLetter.toLowerCase();  }
   else {
   window.helloSpeaker(window.names[i]);
   }
-}
+
 
 })();
