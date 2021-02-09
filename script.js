@@ -65,4 +65,4 @@ window.byeSpeaker(window.names[i]);  }
   }
 
 
-})(window);
+}
