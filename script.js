@@ -58,10 +58,11 @@ for (var i = 0; i < names.length; i++) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstLetter === 'j') {
-firstLetter = firstLetter.toLowerCase();  } 
+window.byeSpeaker(window.names[i]);  } 
+  
   else {
   window.helloSpeaker(window.names[i]);
   }
 
 
-})();
+})(window);
